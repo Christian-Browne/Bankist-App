@@ -185,7 +185,6 @@ btnLoan.addEventListener('click', function (e) {
   const amount = Number(inputLoanAmount);
   if (amount > 0 && currentAccount.movements.some(mov => mov >= amount / 10)) {
     currentAccount.movements.push(amount);
-    updateUI();
   }
 });
 
