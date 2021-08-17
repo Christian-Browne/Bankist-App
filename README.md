@@ -1,4 +1,4 @@
-# New-World-Bank
+# New World Bank
 ## Description
 
 ## :key: Users
