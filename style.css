@@ -282,6 +282,17 @@ h2 {
   transition: all 0.3s;
 }
 
+.form__input::placeholder {
+  color: #5f5f5f;
+}
+
+.operation img {
+  display: flex;
+  margin: auto;
+  max-width: 25%;
+  text-align: center;
+}
+
 .form__input:focus {
   outline: none;
   background-color: rgba(255, 255, 255, 0.6);
@@ -294,7 +305,7 @@ h2 {
 
 .form__btn {
   border: none;
-  border-radius: 0.7rem;
+  border-radius: 2rem;
   font-size: 1.8rem;
   background-color: #fff;
   cursor: pointer;

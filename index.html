@@ -22,7 +22,7 @@
       <form class="login">
         <input
           type="text"
-          placeholder="User"
+          placeholder="user"
           class="login__input login__input--user"
         />
         <!-- In practice, use type="password" -->
@@ -79,9 +79,19 @@
       <div class="operation operation--transfer">
         <h2>Transfer money</h2>
         <form class="form form--transfer">
-          <input type="text" class="form__input form__input--to" />
-          <input type="number" class="form__input form__input--amount" />
-          <button class="form__btn form__btn--transfer">&rarr;</button>
+          <input
+            type="text"
+            class="form__input form__input--to"
+            placeholder="user"
+          />
+          <input
+            type="number"
+            class="form__input form__input--amount"
+            placeholder="$0"
+          />
+          <button class="form__btn form__btn--transfer">
+            <img src="right-arrow.png" alt="" />
+          </button>
           <label class="form__label">Transfer to</label>
           <label class="form__label">$ Amount</label>
         </form>
@@ -91,8 +101,14 @@
       <div class="operation operation--loan">
         <h2>Request loan</h2>
         <form class="form form--loan">
-          <input type="number" class="form__input form__input--loan-amount" />
-          <button class="form__btn form__btn--loan">&rarr;</button>
+          <input
+            type="number"
+            class="form__input form__input--loan-amount"
+            placeholder="$0"
+          />
+          <button class="form__btn form__btn--loan">
+            <img src="right-arrow.png" alt="" />
+          </button>
           <label class="form__label form__label--loan">$ Amount</label>
         </form>
       </div>
@@ -101,13 +117,20 @@
       <div class="operation operation--close">
         <h2>Close account</h2>
         <form class="form form--close">
-          <input type="text" class="form__input form__input--user" />
+          <input
+            type="text"
+            class="form__input form__input--user"
+            placeholder="user"
+          />
           <input
             type="password"
             maxlength="6"
             class="form__input form__input--pin"
+            placeholder="PIN"
           />
-          <button class="form__btn form__btn--close">&rarr;</button>
+          <button class="form__btn form__btn--close">
+            <img src="right-arrow.png" alt="" />
+          </button>
           <label class="form__label">Confirm user</label>
           <label class="form__label">Confirm PIN</label>
         </form>
