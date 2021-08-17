@@ -5,9 +5,9 @@ New World Bank is a banking app where you can access the details of your bank ac
 ## ⭐ Features:
 - [x] Login, Logout
 - [x] Transfer money to different users
-- [x] request loan
-- [x] close account
-- [x] change users
+- [x] Request loan
+- [x] Close account
+- [x] Change users
 
 ## :key: Users
 <em>*** Current User ***</em> <br/>
