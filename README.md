@@ -1,6 +1,8 @@
-# New World Bank
+# `- New World Bank -`
+
 ## 📕 Description:
-New World Bank is a banking app where you can access the details of your bank account, track your deposits & withdraws, and complete transactions. The format of the app is fresh and easy to use allowing the user t create a variety of actions.
+New World Bank is a banking app where users can access their bank account details, track their deposits & withdrawals, and complete transactions. The format of the app is fresh and easy to use allowing users to accomplish a variety of actions.
+### <a href="https://christian-browne.github.io/New-World-Bank/" target = "_blank">View Site</a>
 
 ## ⭐ Features:
 - [x] Login, Logout
