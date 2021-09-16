@@ -1,6 +1,19 @@
 'use strict';
 
 /////////////////////////////////////////////////
+const modal = document.querySelector('.modal');
+const helpBtn = document.querySelector('.help');
+
+helpBtn.addEventListener('click', function () {
+  modal.style.display = 'block';
+});
+
+modal.addEventListener('click', function (e) {
+  console.log(e.target);
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+});
 /////////////////////////////////////////////////
 // TODO: BANKIST APP
 
