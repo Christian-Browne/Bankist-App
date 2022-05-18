@@ -1,10 +1,12 @@
 # `- New World Bank -`
+<!-- ![image](https://user-images.githubusercontent.com/66934782/168956580-0427b1fe-8d3b-43aa-8b28-410fbc0431cd.png) -->
+<!-- <img src="https://user-images.githubusercontent.com/66934782/168956580-0427b1fe-8d3b-43aa-8b28-410fbc0431cd.png" style="width:500px;"> -->
 
-## 📕 Description:
+## 📕 Description
 New World Bank is a banking app where users can access their bank account details, track their deposits & withdrawals, and complete transactions. The format of the app is fresh and easy to use allowing users to accomplish a variety of actions.
 ### <a href="https://christian-browne.github.io/new-world-bank/" target = "_blank">View Site</a>
 
-## ⭐ Features:
+## ⭐ Features
 - [x] Login, Logout
 - [x] Transfer money to different users
 - [x] Request loan
@@ -12,18 +14,13 @@ New World Bank is a banking app where users can access their bank account detail
 - [x] Change users
 
 ## :key: Users
-<em>*** Current User ***</em> <br/>
-User : `js` <br/>
-Password : `1111`
 
-User : `jd` <br/>
-Password : `2222`
-
-User : `stw` <br/>
-Password : `3333`
-
-User : `ss` <br/>
-Password : `4444`
+|Users|Password|
+|:---|:---|
+|js|1111|
+|jd|2222|
+|stw|3333|
+|ss|4444|
 
 
 
